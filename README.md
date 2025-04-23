@@ -6,6 +6,13 @@ Ni skapar en enkel Next.js applikation som använder App Router, `next/font`, `n
 
 ---
 
+---
+Dokumentation:
+
+<https://nextjs.org/docs>
+
+---
+
 ## 1. Förberedelser
 
 1. Installera Node.js (v18+).
@@ -225,7 +232,7 @@ export default async function PostsPage() {
 
 ## 9. Kör och testa
 
-2. Verifiera att:
+1. Verifiera att:
    - Google-fonten laddas globalt.
    - Bilder optimeras via `<Image>`.
    - Navigering sker med `<Link>` utan omladdning.
