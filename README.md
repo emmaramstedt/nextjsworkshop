@@ -1,6 +1,7 @@
 # Workshop Lab: Bygg en Next.js App med App Router
 
 **Mål**
+
 Ni skapar en enkel Next.js applikation som använder App Router, `next/font`, `next/image`, `next/link` och komponenter med CSS Modules, samt anropar ett valfritt publikt API.
 
 ---
@@ -8,11 +9,7 @@ Ni skapar en enkel Next.js applikation som använder App Router, `next/font`, `n
 ## 1. Förberedelser
 
 1. Installera Node.js (v18+).
-2. (Valfritt) Installera pnpm:  
-   ```bash
-   npm install -g pnpm
-   ```
-3. Skapa och starta projektet:
+2. Skapa och starta projektet:
    ```bash
    npx create-next-app@latest
    cd [namn på ditt projekt]
