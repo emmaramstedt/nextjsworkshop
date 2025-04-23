@@ -6,8 +6,7 @@ Ni skapar en enkel Next.js applikation som använder App Router, `next/font`, `n
 
 ---
 
----
-Dokumentation:
+:books: Dokumentation:
 
 <https://nextjs.org/docs>
 
