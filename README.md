@@ -159,10 +159,33 @@ export default function Card({ title, children }: { title: string; children: Rea
 ...
 }
 ```
-- För skojs skull, inspektera din DOM. Notera hur dina klassnamn ser ut. De bör vara genererade med ett unikt ID
+---
+## 7. Lägg till dina komponenter i dina pages
+
+1. Importera och använd dina atoms och molecules i app/page.tsx eller andra rutter.
+
+Exempel:
+```ts
+import Button from '@/components/atoms/Button/Button'
+import Card from '@/components/molecules/Card/Card'
+
+export default function HomePage() {
+  return (
+    <main>
+      <Card title="Hej!">
+        Här är en dynamisk Card-komponent.
+        <Button onClick={() => alert('Hej')}>Klicka mig!</Button>
+      </Card>
+    </main>
+  )
+}
+```
+
+2. Inspektera DOM i webbläsaren: kontrollera att dina CSS Module‐klasser är genererade med unika ID:n (t.ex. Button_button__abc123).
+   
 ---
 
-## 7. Anropa ett publikt API via app/api
+## 8. Anropa ett publikt API via app/api
 
 1. Skapa `app/api/data/route.ts`:
 
@@ -200,7 +223,7 @@ export default async function PostsPage() {
 
 ---
 
-## 8. Kör och testa
+## 9. Kör och testa
 
 2. Verifiera att:
    - Google-fonten laddas globalt.
