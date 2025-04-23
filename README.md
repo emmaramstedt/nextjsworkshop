@@ -189,7 +189,7 @@ export default function HomePage() {
     <main>
       <Card title="Hej!">
         Här är en dynamisk Card-komponent.
-        <Button onClick={() => alert('Hej')}>Klicka mig!</Button>
+        <Button onClick={() => alert('Hej')}>Klicka på mig!</Button>
       </Card>
     </main>
   )
