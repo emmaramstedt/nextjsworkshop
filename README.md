@@ -29,6 +29,7 @@ Ni skapar en enkel Next.js applikation som använder App Router, `next/font`, `n
    cd [namn på ditt projekt]
    npm run dev
    ```
+<img width="548" alt="image" src="https://github.com/user-attachments/assets/65071a92-8a1b-4e78-8982-fcc8c06ccac8" />
 
 Projektet körs nu på <http://localhost:3000>.
 
