@@ -11,10 +11,12 @@ Ni skapar en enkel Next.js applikation som använder App Router, `next/font`, `n
 <https://nextjs.org/docs>
 
 :pencil: Resurser:
+
+
 [Officiell Next.js tutorial av Vercel](https://nextjs.org/learn)
 
 
-[Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript](https://www.youtube.com/watch?v=ZVnjOPwW4ZA))
+[Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript](https://www.youtube.com/watch?v=ZVnjOPwW4ZA)
 
 ---
 
